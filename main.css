@@ -1,0 +1,28 @@
+:root {
+    font-size: 16px;
+    --color-brand: #1B87A8;
+    --color-light-shade: #F6F1F4;
+    --color-dark-shade: #1D202D;
+    --color-light-accent: #5DBBD0;
+    --color-dark-accent: #777B6D;
+}
+
+* {
+    font-family: "Inter", sans-serif !important;
+}
+
+body {
+    background-image: url('60-lines.png');
+    background-color: var(--color-dark-shade) !important;
+    color: var(--color-light-shade) !important;
+}
+
+img {
+    border-radius: 50%;
+    width: auto;
+    height: 12rem;
+}
+
+.main-header {
+    display: flex;
+}
