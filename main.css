@@ -17,7 +17,13 @@ body {
     color: var(--color-light-shade) !important;
 }
 
-img {
+main.container {
+    margin: 0 auto;
+    max-width: 48rem;
+    padding: 0 1rem;
+}
+
+.main-header__portrait {
     border-radius: 50%;
     width: auto;
     height: 12rem;

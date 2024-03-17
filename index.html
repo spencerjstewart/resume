@@ -37,38 +37,58 @@
   <body>
     <main class="container">
       <section class="main-header">
-        <img alt="portrait" src="./images/portrait.jpeg" />
-        <header>
-          <h1>Spencer Stewart</h1>
-          <p class="lead">Full Stack Software Engineer</p>
-          <p class="bio"></p>
-          <p>spencer@spencerstewart.dev</p>
+        <img
+          alt="portrait"
+          class="main-header__portrait"
+          src="./images/portrait.jpeg"
+        />
+        <header class="main-header-info main-header__info">
+          <h1 class="main-header-info__name">Spencer Stewart</h1>
+          <p class="main-header-info__title">Full Stack Software Engineer</p>
+          <p class="main-header-info__bio"></p>
+          <p class="main-header-info__email">spencer@spencerstewart.dev</p>
         </header>
       </section>
 
-      <nav>
-        <ul>
-          <a href="#" target="_blank">GitHub</a>
-          <a href="#" target="_blank">LinkedIn</a>
-          <a href="#" target="_blank">Instagram</a>
-          <a href="#" target="_blank">Resume</a>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#" target="_blank">GitHub </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#" target="_blank">LinkedIn </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#" target="_blank">Instagram </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#" target="_blank">Resume </a>
+          </li>
         </ul>
       </nav>
 
       <section class="tech-stack">
-        <h2>Technologies</h2>
+        <header>
+          <h2 class="tech-stack__heading">Technologies</h2>
+        </header>
       </section>
 
       <section class="experience">
-        <h2>Experience</h2>
+        <header>
+          <h2 class="experience__heading">Experience</h2>
+        </header>
       </section>
 
       <section class="qualifications">
-        <h2>Skills and Qualifications</h2>
+        <header>
+          <h2 class="qualifications__heading">Skills and Qualifications</h2>
+        </header>
       </section>
 
       <section class="projects">
-        <h2>Side Projects</h2>
+        <header>
+          <h2 class="projects__heading">Projects</h2>
+        </header>
       </section>
     </main>
   </body>
