@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/spencerjstewart/resume/issues"
   },
-  "homepage": "https://github.com/spencerjstewart/resume#readme"
+  "homepage": "https://github.com/spencerjstewart/resume#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "normalize.css": "^8.0.1",
+    "prettier": "^3.2.5",
+    "prettier-config-airbnb": "^1.0.0"
+  }
 }
