@@ -7,7 +7,7 @@
     --color-dark-accent: #777B6D;
 }
 
-* {
+*:not([class^="fa"]) {
     font-family: "Inter", sans-serif !important;
 }
 
@@ -23,10 +23,25 @@ main.container {
     padding: 0 1rem;
 }
 
+.main-header {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
 .main-header__portrait {
     border-radius: 50%;
     width: auto;
     height: 12rem;
+}
+
+.main-header-info {
+    margin-left: 3rem;
+}
+
+i {
+    margin-right: 0.25rem;
 }
 
 .navigation__list {
