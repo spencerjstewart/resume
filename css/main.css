@@ -14,8 +14,8 @@
 
 body {
     background-image: url("../60-lines.png");
-    background-color: var(--color-dark-shade) !important;
-    color: var(--color-light-shade) !important;
+    background-color: var(--color-dark-shade);
+    color: var(--color-light-shade);
 }
 
 .icon {
@@ -100,7 +100,7 @@ main.container {
 
 .navigation__item:hover {
     cursor: pointer;
-    background-color: var(--color-light-shade) !important;
+    background-color: var(--color-light-shade);
 }
 
 a.navigation__link {
