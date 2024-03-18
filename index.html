@@ -47,22 +47,20 @@
         />
         <header class="main-header-info main-header__info">
           <h1 class="main-header-info__name">Spencer Stewart</h1>
-          <p class="main-header-info__bio">
-            <i class="fas fa-code"></i>
-            <span
-              >Full-stack software engineer with 6+ years of experience
-              specializing in Java, Spring Framework, and B2B ecommerce.
-              Passionate about the art of engineering and the elegance of clean
-              code.</span
-            >
+          <p class="main-header-info__bio text">
+            <i class="fas fa-code fa-fw icon"></i>
+            Full-stack software engineer with 6+ years of experience
+            specializing in Java, Spring Framework, and B2B ecommerce.
+            Passionate about the art of engineering and the elegance of clean
+            code.
           </p>
-          <p class="main-header-info__email">
+          <p class="main-header-info__email text">
             <a
               class="main-header-info__email-link"
               href="mailto:spencer@spencerstewart.dev"
             >
-              <i class="fa-regular fa-envelope"></i>
-              <span>spencer@spencerstewart.dev</span>
+              <i class="fa-regular fa-envelope fa-fw icon"></i>
+              spencer@spencerstewart.dev
             </a>
           </p>
         </header>
@@ -71,7 +69,7 @@
       <nav class="navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-github fa-fw icon"></i>
             <a
               class="navigation__link"
               href="https://github.com/spencerjstewart"
@@ -80,7 +78,7 @@
             >
           </li>
           <li class="navigation__item">
-            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-linkedin fa-fw icon"></i>
             <a
               class="navigation__link"
               href="https://www.linkedin.com/in/spencer-stewart-29899918/"
@@ -89,7 +87,7 @@
             >
           </li>
           <li class="navigation__item">
-            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-instagram fa-fw icon"></i>
             <a
               class="navigation__link"
               href="https://www.instagram.com/spencerstewartphoto/"
@@ -98,7 +96,7 @@
             >
           </li>
           <li class="navigation__item">
-            <i class="fa-regular fa-file-pdf"></i>
+            <i class="fa-regular fa-file-pdf fa-fw icon"></i>
             <a class="navigation__link" href="#" target="_blank">Resume</a>
           </li>
         </ul>
@@ -109,7 +107,7 @@
           <h2 class="resume-section__header-text">Technologies</h2>
         </header>
         <div class="tech-stack-container">
-          <div class="tech-stack-category">
+          <section class="tech-stack-category">
             <header class="tech-stack-category__header">
               <h6 class="tech-stack-category__title">Languages & Frameworks</h6>
             </header>
@@ -127,8 +125,8 @@
               <li class="tech-stack-category__list-item">Node</li>
               <li class="tech-stack-category__list-item">Python</li>
             </ul>
-          </div>
-          <div class="tech-stack-category">
+          </section>
+          <section class="tech-stack-category">
             <header class="tech-stack-category__header">
               <h6 class="tech-stack-category__title">Technologies</h6>
             </header>
@@ -150,8 +148,8 @@
               <li class="tech-stack-category__list-item">Electron</li>
               <li class="tech-stack-category__list-item">Handlebars</li>
             </ul>
-          </div>
-          <div class="tech-stack-category">
+          </section>
+          <section class="tech-stack-category">
             <header class="tech-stack-category__header">
               <h6 class="tech-stack-category__title">Other</h6>
             </header>
@@ -167,117 +165,131 @@
               <li class="tech-stack-category__list-item">Shell Scripting</li>
               <li class="tech-stack-category__list-item">Mailchimp</li>
             </ul>
-          </div>
+          </section>
         </div>
       </section>
 
-      <section class="experience">
+      <section class="resume-section experience">
         <header class="resume-section__header">
-          <h2 class="experience__heading">Experience</h2>
+          <h2 class="resume-section__header-text">Experience</h2>
         </header>
-        <div class="timeline">
-          <div class="timeline-item">
-            <header class="timeline-item__header">
-              <h5>Software Engineer</h5>
-              <h5>Complete Book & Media Supply</h5>
-              <h6 class="timeline-date">Jun 2018 - Mar 2024</h6>
-            </header>
-            <div class="timeline-content">
-              <h6>
-                <i class="fa-brands fa-java"></i> Full-Stack Java Development
+        <div class="experience-container">
+          <section class="experience-item experience__item">
+            <header class="experience-item__header">
+              <h5 class="experience-item__job-title">Software Engineer</h5>
+              <h5 class="experience-item__company">
+                Complete Book & Media Supply
+              </h5>
+              <h6 class="experience-item__date">
+                <time>Jun 2018 - Mar 2024</time>
               </h6>
-              <ul>
-                <li>
+            </header>
+            <section class="experience-item-details experience-item__details">
+              <header class="experience-item-details__header">
+                <h6 class="experience-item-details__header-text">
+                  <i class="fa-brands fa-java fa-fw icon"></i> Full-Stack Java
+                  Development
+                </h6>
+              </header>
+              <ul class="experience-item-details__list">
+                <li class="experience-item-details__list-item">
                   Developed Complete Book's B2B e-commerce platform with the
                   Spring and Broadleaf Commerce Framework ecosystem encompassing
                   the full development lifecycle.
                 </li>
-                <li>
+                <li class="experience-item-details__list-item">
                   Managed a Solr product catalog, an internal admin portal, a
                   PunchOut system, and an ETL application for processing and
                   indexing over 12 million products.
                 </li>
-                <li>
+                <li class="experience-item-details__list-item">
                   Built a containerized QA environment using Docker and Google
                   Cloud Platform, eliminating local hardware compatibility
                   issues.
                 </li>
-                <li>
+                <li class="experience-item-details__list-item">
                   Built SPAs for buyers using Bootstrap and Thymeleaf, including
                   product catalogs, a quote management system and more leading
                   to increased buyer retention and sales.
                 </li>
-                <li>
+                <li class="experience-item-details__list-item">
                   Integrated dozens of ERP platforms with Complete Book,
                   accommodating individual buyer requirements, leading to quick
                   onboarding.
                 </li>
               </ul>
-              <h6>
-                <i class="fa-solid fa-business-time"></i> Business Operations
-                Automation
-              </h6>
-              <ul>
-                <li>
-                  Built an automated invoicing system that reduced manual
-                  processing by 95%, saving $20,000+ annually in operational
-                  costs and reclaiming 100s of employee hours.
-                </li>
-                <li>
-                  Developed an internal admin portal that automated repetitive
-                  procurement tasks such as order exporting, product creation,
-                  saving 100s of employee hours annually.
-                </li>
-                <li>
-                  Built a Java application that generated financial reports,
-                  saving the COO dozens of hours annually writing queries.
-                </li>
-                <li>
-                  Built a desktop application using Electron to automate product
-                  price lookups saving 100s of employee hours and eliminating a
-                  tedious process.
-                </li>
-              </ul>
-              <h6>
-                <i class="fa-solid fa-shield-halved"></i> Tech Support &
-                Cybersecurity
-              </h6>
-              <ul>
-                <li>
-                  Resolved customer and employee technical issues resulting in a
-                  renegotiated SLA with Broadleaf Commerce, achieving $18,000 in
-                  annual savings.
-                </li>
-                <li>
-                  Implemented security awareness training and ran email attack
-                  simulations in response to a security incident resulting in 0
-                  email-related incidents since implementation.
-                </li>
-              </ul>
-            </div>
-          </div>
+              <section>
+                <header class="experience-item-details__header">
+                  <h6 class="experience-item-details__header-text">
+                    <i class="fa-solid fa-business-time fa-fw icon"></i>
+                    Business Operations Automation
+                  </h6>
+                </header>
+                <ul class="experience-item-details__list">
+                  <li class="experience-item-details__list-item">
+                    Built an automated invoicing system that reduced manual
+                    processing by 95%, saving $20,000+ annually in operational
+                    costs and reclaiming 100s of employee hours.
+                  </li>
+                  <li class="experience-item-details__list-item">
+                    Developed an internal admin portal that automated repetitive
+                    procurement tasks such as order exporting, product creation,
+                    saving 100s of employee hours annually.
+                  </li>
+                  <li class="experience-item-details__list-item">
+                    Built a Java application that generated financial reports,
+                    saving the COO dozens of hours annually writing queries.
+                  </li>
+                  <li class="experience-item-details__list-item">
+                    Built a desktop application using Electron to automate
+                    product price lookups saving 100s of employee hours and
+                    eliminating a tedious process.
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <header class="experience-item-details__header">
+                  <h6 class="experience-item-details__header-text">
+                    <i class="fa-solid fa-shield-halved fa-fw icon"></i> Tech
+                    Support & Cybersecurity
+                  </h6>
+                </header>
+                <ul class="experience-item-details__list">
+                  <li class="experience-item-details__list-item">
+                    Resolved customer and employee technical issues resulting in
+                    a renegotiated SLA with Broadleaf Commerce, achieving
+                    $18,000 in annual savings.
+                  </li>
+                  <li class="experience-item-details__list-item">
+                    Implemented security awareness training and ran email attack
+                    simulations in response to a security incident resulting in
+                    0 email-related incidents since implementation.
+                  </li>
+                </ul>
+              </section>
+            </section>
+          </section>
         </div>
       </section>
-      <section class="projects">
+
+      <section class="resume-section projects">
         <header class="resume-section__header">
-          <h2 class="projects__heading">Projects</h2>
+          <h2 class="resume-section__header-text">Projects</h2>
         </header>
-        <article>
-          <ul class="project-list">
-            <li>
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <a href="#">Screen Audit</a>
-            </li>
-            <li>
-              <i class="fa-regular fa-lightbulb"></i>
-              <a href="#">Smart Documents</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-list-check"></i>
-              <a href="#">Practical JavaScript - Todo</a>
-            </li>
-          </ul>
-        </article>
+        <ul class="project-list">
+          <li>
+            <i class="fa-solid fa-magnifying-glass fa-fw icon"></i>
+            <a href="#">Screen Audit</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-lightbulb fa-fw icon"></i>
+            <a href="#">Smart Documents</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-list-check fa-fw icon"></i>
+            <a href="#">Practical JavaScript - Todo</a>
+          </li>
+        </ul>
       </section>
     </main>
   </body>

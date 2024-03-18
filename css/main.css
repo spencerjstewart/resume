@@ -7,6 +7,7 @@
     --color-dark-accent: #777b6d;
 }
 
+/* Global Styles */
 *:not([class^="fa"]) {
     font-family: "Inter", sans-serif;
 }
@@ -17,16 +18,22 @@ body {
     color: var(--color-light-shade) !important;
 }
 
-i {
+.icon {
     margin-right: 0.25rem;
 }
 
+.text {
+    line-height: 1.5rem;
+}
+
+/* Main Container */
 main.container {
     margin: 0 auto;
     max-width: 48rem;
     padding: 0 1rem;
 }
 
+/* Main Header */
 .main-header {
     display: flex;
     align-items: center;
@@ -52,10 +59,6 @@ main.container {
     margin-bottom: 1rem;
 }
 
-.main-header-info__email {
-
-}
-
 .main-header-info__email-link {
     color: var(--color-brand);
     font-weight: 600;
@@ -63,16 +66,11 @@ main.container {
     left: -0.5rem;
     padding: 0.5rem;
     text-decoration: none;
-    transition: color 0.2s ease-in,
-    background-color 0.2s ease-in;
+    transition: color 0.2s ease-in, background-color 0.2s ease-in;
 }
 
 .main-header-info__email-link:hover {
     background-color: var(--color-light-shade);
-}
-
-.main-header-info__email-link > i {
-    margin-right: 0.5rem;
 }
 
 .main-header-info__email-link > span {
@@ -81,6 +79,7 @@ main.container {
     top: -0.1rem;
 }
 
+/* Navigation */
 .navigation__list {
     display: flex;
     justify-content: space-between;
@@ -110,22 +109,7 @@ a.navigation__link {
     color: inherit;
 }
 
-
-.tech-stack h3,
-.project-card h3 {
-    margin-bottom: 1rem;
-}
-
-.tech-stack ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.tech-stack li {
-    padding: 0.5rem 1rem;
-    margin-bottom: 0.5rem;
-}
-
+/* Resume Section */
 .resume-section__header {
     text-align: center;
     position: relative;
@@ -135,6 +119,12 @@ a.navigation__link {
 .resume-section__header h2 {
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.15rem;
+    display: inline-block;
+    padding: 0 3rem;
+    background-color: var(--color-dark-shade);
+    background-image: url("../60-lines.png");
+    position: relative;
+    z-index: 1;
 }
 
 .resume-section__header::before {
@@ -148,25 +138,20 @@ a.navigation__link {
     z-index: 0;
 }
 
-p {
-    line-height: 1.5rem;
+/* Technologies */
+.tech-stack h3,
+.project-card h3 {
+    margin-bottom: 1rem;
 }
 
-.resume-section__header > h2 {
-    display: inline-block;
-    padding: 0 3rem;
-    background-color: var(--color-dark-shade);
-    background-image: url("../60-lines.png");
-    position: relative;
-    z-index: 1;
+.tech-stack ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-.resume-section__header > h2::before {
-    right: 100%;
-}
-
-.resume-section__header > h2::after {
-    left: 100%;
+.tech-stack li {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .tech-stack-container {
@@ -197,41 +182,42 @@ p {
     color: var(--color-dark-shade);
 }
 
-.timeline-item {
+/* Experience */
+.experience__item {
     margin-bottom: 2rem;
 }
 
-.timeline-item__header {
+.experience-item__header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 1rem;
-
 }
 
-.timeline-date {
+.experience-item__date {
     font-style: italic;
     color: var(--color-dark-accent);
 }
 
-.timeline-content {
+.experience-item__details {
     margin-top: 1rem;
 }
 
-.timeline-content h5 {
+.experience-item__details h5 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.timeline-content ul {
+.experience-item__details ul {
     margin-bottom: 0;
 }
 
-.timeline-content ul li {
+.experience-item__details ul li {
     margin-bottom: 0.5rem;
     line-height: 1.5rem;
 }
 
+/* Projects */
 .projects {
     padding-bottom: 5rem;
 }
