@@ -167,6 +167,7 @@ a.navigation__link {
 .tech-stack-container {
     display: flex;
     flex-direction: column;
+    margin-right: -1rem;
 }
 
 .tech-stack-category {
@@ -203,19 +204,19 @@ a.navigation__link {
     align-items: baseline;
     font-style: italic;
     color: var(--color-dark-accent);
+    margin-top: -0.25rem;
 }
 
 .experience-item__job-title {
-    margin-right: 3rem;
+    margin-right: 1rem;
 }
 
 .experience-item__company {
-    margin-right: 3rem;
+    margin-right: 1rem;
 }
 
 .experience-item__details {
-    margin-top: 0.75rem;
-    margin-right: 1rem;
+    margin-top: 0.5rem;
 }
 
 .experience-item-details__header-text {
@@ -223,15 +224,13 @@ a.navigation__link {
 }
 
 .experience-item-details__list {
-    margin-left: -0.75rem;
+    margin-left: -2rem;
     margin-bottom: 0;
     list-style: none;
 }
 
 .experience-item-details__list-item {
-    margin-left: -0.5rem;
-    margin-right: -0.25rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     line-height: 1.5rem;
 }
 
@@ -357,7 +356,7 @@ a.navigation__link {
 
     .tech-stack-category li {
         padding: 0.25rem 0.5rem;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .experience-item__header > h5 {
