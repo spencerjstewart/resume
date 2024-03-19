@@ -26,6 +26,18 @@ body {
     line-height: 1.5rem;
 }
 
+.inline-link {
+    color: var(--color-brand);
+    font-weight: 600;
+    transition: color 0.2s ease-in, font-size 0.2s ease-in, text-shadow 0.2s ease-in;
+}
+
+.inline-link:hover {
+    color: var(--color-light-accent);
+    font-size: 1.02rem;
+    text-shadow: 0 0.1rem 0.2rem rgba(255, 255, 255, 0.2);
+}
+
 /* Main Container */
 main.container {
     margin: 0 auto;
@@ -261,15 +273,14 @@ a.navigation__link {
 }
 
 .project-card-header__text > a {
-    text-decoration: none;
     color: inherit;
-    transition: color 0.2s ease-in, text-decoration 0.2s ease-in;
+    transition: color 0.2s ease-in, font-size 0.2s ease-in, text-shadow 0.2s ease-in;
 }
 
 .project-card-header__text > a:hover {
     color: var(--color-light-accent);
-    text-decoration: underline;
-
+    font-size: 1.30rem;
+    text-shadow: 0 0.1rem 0.2rem rgba(255, 255, 255, 0.2);
 }
 
 .project-card__description {
